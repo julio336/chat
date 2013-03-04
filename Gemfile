@@ -2,7 +2,9 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.5'
 gem 'jquery-rails'
-gem 'faye', '0.6.1'
+gem "private_pub"
+gem 'thin'
+gem 'faye'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
